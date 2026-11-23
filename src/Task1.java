@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Task1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a string: ");
@@ -9,6 +9,6 @@ public class Main {
         String uppercaseText = text.toUpperCase();
         System.out.println(uppercaseText);
 
-        scanner.close();
+        in.close();
     }
 }
